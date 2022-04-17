@@ -12,5 +12,5 @@ int main() {
     ComplexClass two=  ComplexClass(c,d);
     base.print(two);
     return 0;
-    
+
 }
