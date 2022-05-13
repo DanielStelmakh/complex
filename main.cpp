@@ -10,7 +10,14 @@ int main() {
     ComplexClass base= ComplexClass();
     auto one=  ComplexClass(a, b);
     ComplexClass two=  ComplexClass(c,d);
-    base.print(two);
+    auto first=base.multi(one,two);
+    auto second=base.slash(one,two);
+    auto third=base.minus(one,two);
+    auto fourth=base.slash(one,two);
+    base.print(first);
+    base.print(second);
+    base.print(third);
+    base.print(fourth);
     return 0;
 
 }
